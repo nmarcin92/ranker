@@ -6,5 +6,5 @@ export class AuthServiceService {
 
   constructor(private http: Http) { }
 
-  
+
 }

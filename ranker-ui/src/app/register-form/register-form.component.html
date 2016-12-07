@@ -8,6 +8,14 @@
 
   <div class="row">
     <div class="input-field col s3">
+      <input id="username-input" type="text" formControlName="username" class="validate">
+      <label for="login-input">Username</label>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="input-field col s3">
       <input id="password-input" type="password" formControlName="password" class="validate">
       <label for="password-input">Password</label>
     </div>
@@ -16,7 +24,7 @@
   <div class="row">
     <div class="col s3 center-align">
       <button class="btn waves-effect waves-light" type="submit" [disabled]="!form.valid">
-        Login
+        Register
         <i class="material-icons right">send</i>
       </button>
     </div>
